@@ -80,4 +80,11 @@ main{
 }
 .precios-bar_contenedor p{
     font-size: 10px;
+    font-weight: 700;
+}
+.decimal, .euro{
+    font-size: 8px;
+}
+.euro{
+    font-weight: 400;
 }
