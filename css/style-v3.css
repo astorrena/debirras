@@ -12,24 +12,24 @@ a{
     text-decoration: none;
 }    
 main{
-    background: white;
+    background: rgba(0, 0, 0, 0.02);
     padding: 15px;
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 30px;
 }
 .tarjeta-bar{
     background: white;
     display:flex;
     flex-direction: column;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: rgba(99, 99, 99, 0.1) 0px 0px 10px 0px;
 }
 .foto-bar{
 
     object-fit: cover;
-    border-radius: 20px 20px 0 0;
+    border-radius: 10px 10px 0 0;
     height: 150px;
 }
 .info-bar{
@@ -75,7 +75,7 @@ main{
     align-items: center;
     background: var(--grisClaro);
     padding: 5px 10px;
-    border-radius: 8px;
+    border-radius: 5px;
     gap: 5px;
     min-height: 35px;
 }
